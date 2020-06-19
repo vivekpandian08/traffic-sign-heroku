@@ -4,5 +4,4 @@ sklearn
 pandas
 numpy
 keras
-tensorflow
 werkzeug
