@@ -10,7 +10,7 @@ import numpy as np
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model
-from PIL import Image
+#from PIL import Image
 import os
 
 # Flask utils
