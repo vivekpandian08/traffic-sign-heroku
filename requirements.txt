@@ -1,0 +1,10 @@
+flask
+gunicorn
+sklearn
+pandas
+numpy
+keras
+os
+PIL
+tensorflow
+werkzeug
