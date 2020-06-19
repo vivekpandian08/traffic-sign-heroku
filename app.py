@@ -98,14 +98,9 @@ def upload():
     if request.method == 'POST':
         # Get the file from post request
         f = request.files['file']
-
-        # Save the file to ./uploads
-       #basepath = os.path.dirname(__file__)
-        #file_path = os.path.join(
-         #   basepath, 'uploads', secure_filename(f.filename))
-        #f.save(file_path)
+        f.save('file')
         # read image 
-        image=read_image(f)
+        image=read_image('file')
         # Make prediction
         model = load_model( 'model.h5')
         pred = model.predict_classes([image])[0]
